@@ -40,6 +40,7 @@ SimpleDateFormat sf = new SimpleDateFormat("yy/MM/dd HH:mm");
 Date d = new Date(now);
 String format = sf.format(d);
 values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, format);
+
 ·时间戳截图
 ![img_1.png](img_1.png)
 
@@ -152,6 +153,7 @@ NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE//时间
         return true;
     }
 }
+
 ·搜索功能截图
 ![img_2.png](img_2.png)
 ![img_3.png](img_3.png)
@@ -217,6 +219,7 @@ case R.id.color2:
 case R.id.color3:
      mText.setTextColor(Color.YELLOW);
      break;
+
 ·结果截图
 ![img_9.png](img_9.png)
 ![img_10.png](img_10.png)
