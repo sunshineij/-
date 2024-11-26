@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_save"
+          android:icon="@drawable/ic_menu_save"
+          android:alphabeticShortcut='s'
+          android:title="@string/menu_save"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_revert"
+          android:icon="@drawable/ic_menu_revert"
+          android:title="@string/menu_revert" />
+    <item android:id="@+id/menu_delete"
+          android:icon="@drawable/ic_menu_delete"
+          android:title="@string/menu_delete"
+          android:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/menu_output"
+        android:title="@string/menu_output" />
+
+
+    <item
+        android:id="@+id/textsize"
+        android:title="@string/textsize">
+        <menu>
+            <item
+                android:id="@+id/size1"
+                android:title="@string/size1"
+
+                />
+            <item android:id="@+id/size2"
+                android:title="@string/size2"
+
+                />
+
+            <item android:id="@+id/size3"
+                android:title="@string/size3"
+
+                />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/color"
+        android:title="@string/color"
+
+        >
+        <menu>
+            <item android:id="@+id/color1"
+                android:title="@string/color1"
+
+                />
+            <item
+                android:id="@+id/color2"
+                android:title="@string/color2"
+                />
+            <item
+                android:id="@+id/color3"
+                android:title="@string/color3"
+
+
+                />
+
+        </menu>
+
+
+    </item>
+
+
+
+
+</menu>
