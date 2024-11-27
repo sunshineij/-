@@ -23,16 +23,12 @@
             <item
                 android:id="@+id/size1"
                 android:title="@string/size1"
-
                 />
             <item android:id="@+id/size2"
                 android:title="@string/size2"
-
                 />
-
             <item android:id="@+id/size3"
                 android:title="@string/size3"
-
                 />
         </menu>
     </item>
